@@ -6,35 +6,63 @@
   </head>
   <body>
     <h1>DCC121 Tabelas</h1>
-    <table> 
-      <thead>  
-      <tr>
-        <th>Nome</th>
-        <th>Altura</th>
-        <th>Peso</th>
-        <th>idade</th>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Altura</th>
+          <th>Peso</th>
+          <th>idade</th>
+        </tr>
       </thead>
       <tbody>
-      </tr>
-      <tr>
-        <td>Rodrigo</td>
-        <td>1,73</td>
-        <td>62Kg</td>
-        <td>18y</td>
-      </tr>
-      <tr>
-        <td>Rafaella</td>
-        <td>1,50</td>
-        <td>50kg</td>
-        <td>14y</td>
-      </tr>
-      </tbody> 
+        <tr>
+          <td>Rodrigo</td>
+          <td>1,73</td>
+          <td>62Kg</td>
+          <td>18y</td>
+        </tr>
+        <tr>
+          <td>Rafaella</td>
+          <td>1,50</td>
+          <td>50kg</td>
+          <td>14y</td>
+        </tr>
+      </tbody>
       <tfoot>
-            <th>Média</th>
-            <td>1,68</td>
-            <td>69</td>
-            <td>27</td>   
+        <tr>
+          <th>Média</th>
+          <td>1,68</td>
+          <td>69</td>
+          <td>27</td>
+        </tr>
       </tfoot>
     </table>
   </body>
+
+  <h1>Outro exemplo</h1>
+  <table border="1">
+    <tbody>
+      <tr>
+        <td colspan="2">1</td>
+        <td>3</td>
+        <td rowspan="3">4</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td colspan="3" rowspan="2">6</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>15</td>
+      </tr>
+      <tr>
+          <td>16</td>
+          <td>17</td>   
+          <td>18</td>
+          <td>19</td>
+          <td>20</td>
+      </tr>
+    </tbody>
+  </table>
 </html>
